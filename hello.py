@@ -3,11 +3,9 @@ def main():
     print("string: ", msg)
     print("len of: ", len(msg))
 
-def power():
-    baseNumber = 2
-    powerNumber = 10
-    print(baseNumber ** powerNumber)
+def power(baseNumber, powerNumber):
+    return baseNumber ** powerNumber
 
 if __name__ == "__main__":
     main()
-    power()
+    print("power: " + str(power(2, 10)))
